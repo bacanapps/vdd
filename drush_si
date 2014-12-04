@@ -1,0 +1,4 @@
+drush site-install --db-url=mysql://root:root@localhost:wetkit
+drush site-install wetkit --db-url=mysql://root:root@localhost/wetkit
+drush site-install wetkit --account-name=admin --account-pass=admin --db-url=mysql://root:root@localhost:wetkit
+drush site-install wetkit --db-url=mysql://root:root@localhost/wetkit --notify global
